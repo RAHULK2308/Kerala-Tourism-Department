@@ -1,0 +1,51 @@
+.distmargin{
+    margin: 30px; 
+    padding: 5px;
+}
+
+.distheading{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 35%;
+
+}
+
+.card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.card-text{
+   
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.distdescription{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardborder{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: teal;
+    
+}

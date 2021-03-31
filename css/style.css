@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+     #title{
+        float: left;
+        margin-right: 23%;
+        font-style: italic;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-stretch: normal;
+        
+
+    } 
+
+
+    .nav li{
+        margin: 2px;
+    }
+
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h6{
+    text-align: center;
+    color: white;
+    padding: 8px;
+}
+
+.maindescription{
+    text-align: justify;
+    margin-left: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.signinform{
+    margin-left: 20px;
+    padding: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+ h1{
+    margin-left: 28%;
+}
+
+
+.signcard{
+    float: right;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+.signcard a:hover{
+    color: white;
+    background-color: teal;
+
+}
+.signcard p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.signfooter{
+    
+    background-color:whitesmoke;
+    margin-top: 20px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+}
+
+
+/* login page */
+.loginform{
+    float: right;
+    padding: 15px;
+    margin-right: 19%;
+    margin-top: 3%;
+}
+
+.loginsign a{
+    text-decoration: none;
+}
+
+.loginsign a:hover{
+    color: brown;
+}
+
+.logincard{
+    margin-top: 26.5%;
+    margin-left: 5px;
+}
+
+.logincard p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+.logincard a:hover{
+    color: white;
+    background-color: teal;
+}
+
+.loginfooter p{
+
+    background-color:whitesmoke;
+    margin-top: 20px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+
+    
+}
+
+/* Home page */
+
+.mymargin{
+    margin-left: 30px; 
+    padding: 8px;
+    border: 2px solid black;
+}
+
+.mymargin h3{
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.mymargin ul{
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.homefooter p{
+    margin: 20px;
+    text-align: justify;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+

@@ -122,9 +122,10 @@ h6{
 /* Home page */
 
 .mymargin{
-    margin-left: 30px; 
+    margin-left: 25px; 
     padding: 8px;
     border: 2px solid black;
+    text-align: justify;
 }
 
 .mymargin h3{
@@ -132,12 +133,16 @@ h6{
     font-style: italic;
     font-family: cursive;
     text-transform: uppercase;
+    
 }
 
-.mymargin ul{
+.mymargin li{ 
+    margin-right: 1%;
     text-align: justify;
-    font-size: 1rem;
+    position: relative;
+    
 }
+
 
 .homefooter p{
     margin: 20px;

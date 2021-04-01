@@ -4,20 +4,17 @@
 }
 
      #title{
-        float: left;
-        margin-right: 23%;
+      
         font-style: italic;
         font-weight: bold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-stretch: normal;
         
-
     } 
 
 
-    .nav li{
+   .nav li{
         margin: 2px;
-    }
+    } 
 
 body{
     background-repeat: no-repeat;

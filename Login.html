@@ -15,8 +15,9 @@
 </head>
 
 
-<body class="col-md-12" background="./images/kadhakali5.jpg">
-  <div class="container-fluid g-0 col-md-12">
+<body  style="background-image: url(./images/kadhakali5.jpg);">
+  <div class="container-fluid">
+  
 <header>
 
     <!-- Navbar -->
@@ -53,32 +54,42 @@
    <!-- /Navbar -->
 
  </header>
- 
- <form class="col-md-3 loginform">
-     <h1>Log In</h1>
-     <br>
-    <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-    <br>
-    <br>
-    <div class="loginsign">
+
+ <div class="container-fluid">
+ <form class="loginform col-md-3" onsubmit="return !!(trigger() & validate() & emailvalidate());" action="./index.html">
+      <h2>Log In</h2>
+      <div class="input">
+      <label>EMAIL ID:</label><br>
+      <input type="text" placeholder="Email Id" id="Email" onkeyup="emailvalidate();">
+      <label id="error1" hidden>field is empty</label>
+      <br>
+      <br>
+      <label>PASSWORD:</label><br>
+      <input type="password"  placeholder="Minimum 8 character " id="pwd" onkeyup="trigger();" ><br>
+      <label id="error2" hidden>field is empty</label>
+      <div class="indicator">
+        
+        <span class="weak"></span>
+        <span class="medium"></span>
+        <span class="strong"></span>
+      </div>
+<div class="text" >
+</div>
+        
+      
+      <br>
     <p>If you don't have any account ? <a href="./signup.html">SignIn</a></p>
+    <button>Login</button>
+  </div>
+  
     </div>
   </form>
 
-<div class="logincard">
+ <br>
+  <br>
+
+
+ <div class="logincard">
   <div class="card" style="width: 25rem;">
     <div class="card-body">
       <h5 class="card-title">KATHAKALI</h5>
@@ -89,7 +100,7 @@
   </div>
 </div>
 
-<footer class="loginfooter" >
+<footer class="loginfooter col-md-12" >
   <p>
   Toll free No: 1-800-425-4747 (Within India only)
 Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
@@ -97,8 +108,11 @@ Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail:<a href="info@keralatourism
 Copyright@2021
 </p>
 
-</footer>
-</body>
+</footer> 
 </div>
+<script src="js/main.js"></script>
+
+
+</body>
 </html>
 

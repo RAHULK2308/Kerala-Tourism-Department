@@ -18,11 +18,9 @@
 
 body{
     background-repeat: no-repeat;
-     background-size:auto;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-    
+    background-size: cover;    
+    height: 100%;
+    width: 100%;
 }
 
 h6{
@@ -81,18 +79,90 @@ h6{
 /* login page */
 .loginform{
     float: right;
-    padding: 15px;
+    padding: 20px;
     margin-right: 19%;
     margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:LightBlue;
+    color:black;
+    border: 2px solid black;
+    border-radius: 25px;
+
 }
 
-.loginsign a{
+#checkmeter{
+    width:80%;
+}
+
+.input{
+    margin: 15px;
+}
+
+
+.loginform h2{
+    text-align: center;
+}
+
+form .text.weak{
+color: red;
+cursor:pointer;
+border: 1px solid red;
+width: 79.5%;
+border-radius: 10px;
+padding: 2px;
+}
+
+form .text.medium{
+color: orange;
+cursor: pointer;
+border: 1px solid orange;
+border-radius: 10px;
+padding: 2px;
+width: 79.5%;
+}
+form .text.strong{
+color: green;
+cursor: pointer;
+border: 1px solid green;
+border-radius: 10px;
+padding: 2px;
+width: 79.5%;
+}
+
+#error1{
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+#error2{
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+.loginform a{
     text-decoration: none;
 }
 
-.loginsign a:hover{
+.loginform a:hover{
     color: brown;
 }
+
+.loginform button{
+    padding: 3px;
+    width: 60pt;
+    
+}
+
+.loginform button:hover{
+    background-color: blue;
+    color:white;
+}
+
 
 .logincard{
     margin-top: 26.5%;

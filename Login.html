@@ -56,7 +56,7 @@
  </header>
 
  <div class="container-fluid">
- <form class="loginform col-md-3" onsubmit="return !!(trigger() & validate() & emailvalidate());" action="./index.html">
+ <form class="loginform col-md-3" onsubmit="return !!(pwdlength() & validate() & emailvalidate());" action="./index.html">
       <h2>Log In</h2>
       <div class="input">
       <label>EMAIL ID:</label><br>
@@ -65,7 +65,7 @@
       <br>
       <br>
       <label>PASSWORD:</label><br>
-      <input type="password"  placeholder="Minimum 8 character " id="pwd" onkeyup="trigger();" ><br>
+      <input type="password"  placeholder="Minimum 8 character " id="pwd" onkeyup="pwdlength()" ><br>
       <label id="error2" hidden>field is empty</label>
       <div class="indicator">
         

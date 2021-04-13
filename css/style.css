@@ -45,8 +45,8 @@ h6{
 }
 
 
- .signinform h1{
-    margin-left: 28%;
+ .signinform h2{
+    text-align: center;
 }
 
 
@@ -104,43 +104,80 @@ h6{
 }
 
 form .text.weak{
-color: red;
+color:white;
 cursor:pointer;
-border: 1px solid red;
+border: 1px solid white;
 width: 79.5%;
 border-radius: 10px;
 padding: 2px;
+background-color:red;
+font-family:serif;
 }
 
 form .text.medium{
-color: orange;
+color: white;
 cursor: pointer;
-border: 1px solid orange;
+border: 1px solid white;
 border-radius: 10px;
 padding: 2px;
 width: 79.5%;
+background-color: orange;
+font-family:serif;
+
 }
 form .text.strong{
-color: green;
+color: white;
 cursor: pointer;
-border: 1px solid green;
+border: 1px solid white;
 border-radius: 10px;
 padding: 2px;
 width: 79.5%;
+background-color: green;
+font-family:serif;
 }
 
 #error1{
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 4px;
     padding: 2px;
     cursor: pointer;
+    background-color: red;
 }
 
 #error2{
-    border: 1px solid red;
+    border: 1px solid white;
     border-radius: 4px;
     padding: 2px;
     cursor: pointer;
+    background-color: red;
+}
+#error3{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+    background-color: red;
+}
+#error4{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+    background-color: red;
+}
+#error5{
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+    background-color: red;
+}
+#error6{
+border: 1px solid white;
+border-radius: 4px;
+padding: 2px;
+cursor: pointer;
+background-color: red;
 }
 
 
